@@ -1,0 +1,46 @@
+function countBs(string)
+{
+	var Bs = 0;
+
+	for (var i = 0;i <= string.length - 1;i++)
+	{
+		if (string.charAt(i) === "B")
+		{
+			Bs += 1;
+		}
+
+		else
+		{
+
+		}
+	}
+
+	return Bs;
+}
+
+function countChar(string, letter)
+{
+	var count = 0;
+
+	if(typeof string !== typeof "")
+	{
+		return "Not a String!";
+	}
+
+	else
+	{
+
+		for (var i = 0;i <= string.length - 1;i++)
+		{
+			if (string.charAt(i) === letter)
+			{
+				count += 1;
+			}
+			else
+			{
+		
+			}
+		}
+	}
+  return count;
+}
